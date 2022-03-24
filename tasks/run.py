@@ -17,7 +17,7 @@ def execute(ctx, clean=False):
     Run dirty tracking benchmark
     """
     run(
-        EXE_BINARY,
+        "sudo {}".format(EXE_BINARY),
         shell=True,
         check=True,
         cwd=BIN_DIR,
