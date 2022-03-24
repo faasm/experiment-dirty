@@ -17,7 +17,7 @@ jobs:
       - name: "Install black"
         run: pip3 install black
       - name: "Install clang-format"
-        run: apt install -y clang-format-10
+        run: sudo apt install -y clang-format-10
       - name: "Python formatting check"
         run: ./bin/check_python.sh
       - name: "Run C/C++ formatting"
