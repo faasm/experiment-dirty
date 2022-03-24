@@ -247,7 +247,7 @@ void doBench(const std::string& mode)
         // doBenchInner(conf);
     }
 }
-}
+} // namespace faabric::runner
 
 int main(int argc, char* argv[])
 {
